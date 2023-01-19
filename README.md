@@ -3,4 +3,4 @@
 html ve css kullanıldı
 
 
-![ekran.gif] eklendi
+![](ekran.gif) yenilendi
