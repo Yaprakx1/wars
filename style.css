@@ -1,0 +1,268 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Oxygen:wght@300&family=Poppins:wght@300;400&family=Teko&display=swap');
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:open-sans;
+    
+}
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+section{
+    height: 100vh;
+    border: 1px solid;
+}
+img{
+width: 150px;
+
+
+}
+#welcome-sec{
+    background-image: url(images/main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:50px 70px;
+}
+nav{
+display: flex;
+gap: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    transition:color 0.3s;
+    
+}
+nav a:hover{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    text-shadow: 2px 2px 20px white;
+    transition: all 0.5s;
+}
+.welcome-text{
+margin: 200px auto;
+color: white;
+width: 90vh;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+p{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+/*hakkında kısmı*/
+#about{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-text{
+    width: 300px;
+    height: 400px;
+    
+    margin: 50px 100px;
+    color: white;
+    text-align: justify;
+
+}
+.sec-2{
+    font-size: 15px;
+    padding: 5px;
+    
+}
+.sect-2{
+    font-size: 25px;
+
+}
+.secti-2{
+    font-size: 15px;
+    text-transform: lowercase;
+}
+.pic-2{
+   
+    width: 300px;
+    height: 400px;
+}
+@media(max-width:900px){
+    #about{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .pic-2{
+        width:300px ;
+        height:280px;
+    }
+}
+/*battle alaı*/
+#battle{
+    background-image:radial-gradient(circle,rgba(0, 0, 0, 0) 0%,black 60%),url(/images/sec-2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    
+}
+.heading{
+
+}
+.bas{
+    color:red;
+
+}
+h5{
+    color: white;
+    text-align: center;
+}
+.bat{
+    color: white;
+    font-size: 30px;
+}
+.batt{
+    color: white;
+    text-transform: lowercase;
+    firs
+}     
+
+.boxes{
+
+width: 620px;
+height:500px;
+display:flex;
+flex-wrap:wrap;
+margin:100px auto;
+overflow:hidden;
+}
+.box{
+width: 300px;
+height: 130px;
+font-family:' open-sans';
+
+
+}
+.box:last-child{
+    width: 600px;
+}
+/*fikirler alanı*/
+#opinions{
+    background-color: black;
+    background-image: url(/images/sec-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.son{
+    text-transform: lowercase ;
+}
+.opinion-text{
+    width: 300px;
+    font-family: 'poppins';
+    color: white;
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 250px;
+    
+    
+
+}
+.opinion-text p{
+    font-size: 19px;
+}
+.opinion-text button{
+    background-color: rgb(213, 19, 19);
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    transition: color 0.8s ,backgraund color ;
+   
+}
+.opinion-text button:hover{
+    background-color: black;
+    color: red;
+    transition:all 0.8s;
+    cursor: pointer;
+}
+.card{
+    
+    color: white;
+    width: 300px;
+    height:250px;
+    
+    margin-right: 150px;
+    margin: 30px;
+    
+    
+}
+.card p{
+    font-size: 10px;
+   
+}
+.user{
+    float: inline-start;
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+.person{
+    width: 45%;
+    height: 45%;
+    display: inline;
+}
+.comment{
+  text-align: justify;
+    }
+   .comment p{
+padding: 10px;
+   }
+   
+   
+   .card p{
+    color: gray;
+   }
+   .card h4{
+    color: crimson;
+   }
+   .cards{
+    width: 600px;
+    height: auto;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    
+   }
+   .card:nth-child(2){
+
+    align-self: flex-start;
+    
+   }
+   @media (max-width:900px){
+    .opinions{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   }
+    
+   
